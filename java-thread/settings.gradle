@@ -12,4 +12,5 @@ include 'thread-state:block-thread'
 findProject(':thread-state:block-thread')?.name = 'block-thread'
 include 'thread-state:terminated-thread'
 findProject(':thread-state:terminated-thread')?.name = 'terminated-thread'
+include 'sleep'
 
